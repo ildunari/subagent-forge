@@ -1,0 +1,10 @@
+{
+  "post-bash-execution": [
+    {
+      "id": "guard-destructive-bash",
+      "description": "Guard against catastrophic and likely-mutating Bash commands",
+      "script": "./scripts/guard_destructive_bash.py",
+      "requiredEvent": "bash_before_execute"
+    }
+  ]
+}
