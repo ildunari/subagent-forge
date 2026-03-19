@@ -1,25 +1,22 @@
 {
-  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "subagent-forge",
   "owner": {
     "name": "ildunari"
   },
   "metadata": {
     "description": "Research-first orchestration with high-signal subagents and evidence-backed discovery.",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "pluginRoot": "./plugins"
   },
   "plugins": [
     {
       "name": "subagent-forge",
-      "source": "./plugins/subagent-forge",
+      "source": "subagent-forge",
       "description": "Research-first plugin for product scouting, forum sentiment analysis, GitHub audits, academic literature discovery, repo mapping, freshness checks, QA critique, and source verification.",
       "version": "1.0.0",
       "author": {
         "name": "Kosta"
-      },
-      "license": "MIT",
-      "category": "research",
-      "tags": ["research", "subagents", "verification", "github", "academia", "qa"]
+      }
     }
   ]
 }
