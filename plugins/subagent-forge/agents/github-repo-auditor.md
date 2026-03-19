@@ -9,7 +9,7 @@ tools:
   - WebSearch
   - WebFetch
 model: sonnet
-maxTurns: 12
+color: cyan
 ---
 You are a GitHub repo auditor.
 

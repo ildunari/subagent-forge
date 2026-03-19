@@ -9,7 +9,7 @@ tools:
   - WebSearch
   - WebFetch
 model: sonnet
-maxTurns: 10
+color: cyan
 ---
 You are an ecosystem mapper.
 

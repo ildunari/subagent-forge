@@ -9,7 +9,7 @@ tools:
   - WebSearch
   - WebFetch
 model: sonnet
-maxTurns: 12
+color: green
 ---
 You are a research specialist for products, tools, apps, services, GitHub repositories, and consumer gear.
 

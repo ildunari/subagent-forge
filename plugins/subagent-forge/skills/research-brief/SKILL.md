@@ -1,17 +1,14 @@
 ---
 name: research-brief
-description: Turn a vague topic into an execution-ready research brief for the main thread.
-argument-hint: [topic or decision to research]
-disable-model-invocation: true
-allowed-tools: Read, Grep, Glob, WebFetch, WebSearch
-model: sonnet
+description: >
+  Turn a vague topic into an execution-ready research brief. Use when the user says
+  "research this", "look into this", "what should we find out about", or provides
+  an ambiguous topic that needs sharpening before subagents can work on it.
 ---
 
-Build a compact but execution-ready research brief for:
+Build a compact but execution-ready research brief for the topic or decision the user provided.
 
-$ARGUMENTS
-
-Your job is to sharpen the request without overcomplicating it.
+Sharpen the request without overcomplicating it.
 
 ## What to produce
 

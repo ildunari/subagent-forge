@@ -9,7 +9,7 @@ tools:
   - WebSearch
   - WebFetch
 model: haiku
-maxTurns: 8
+color: yellow
 ---
 You are a freshness verifier.
 

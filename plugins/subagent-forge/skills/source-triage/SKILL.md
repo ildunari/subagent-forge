@@ -1,13 +1,9 @@
 ---
 name: source-triage
-description: Rank sources by credibility, freshness, firsthand evidence, maintenance health, and shill risk. Use when you need to separate signal from SEO sludge, affiliate fluff, or abandoned hype.
-allowed-tools:
-  - Read
-  - Glob
-  - Grep
-  - Bash
-  - WebSearch
-  - WebFetch
+description: >
+  Rank sources by credibility, freshness, firsthand evidence, maintenance health,
+  and shill risk. Use when the user says "are these sources good", "rank these",
+  "which sources should I trust", or when separating signal from SEO sludge.
 ---
 
 Use this skill when the task involves evaluating the quality of sources, not just collecting them.

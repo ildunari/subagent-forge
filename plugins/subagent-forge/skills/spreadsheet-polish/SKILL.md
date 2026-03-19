@@ -1,15 +1,12 @@
 ---
 name: spreadsheet-polish
-description: Convert messy comparisons or findings into a clean spreadsheet plan, scoring model, and review checklist.
-argument-hint: [comparison topic or raw findings]
-disable-model-invocation: true
-allowed-tools: Read, Grep, Glob
-model: sonnet
+description: >
+  Convert messy comparisons or findings into a clean spreadsheet plan, scoring model,
+  and review checklist. Use when the user says "make a comparison table", "turn this
+  into a spreadsheet", "score these options", or has raw findings that need structure.
 ---
 
-Turn this material into a spreadsheet or table design that is useful for real decisions:
-
-$ARGUMENTS
+Turn the provided material into a spreadsheet or table design that is useful for real decisions.
 
 ## What to produce
 

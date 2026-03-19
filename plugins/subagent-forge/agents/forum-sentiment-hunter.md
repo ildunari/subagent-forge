@@ -9,7 +9,7 @@ tools:
   - WebSearch
   - WebFetch
 model: sonnet
-maxTurns: 10
+color: magenta
 ---
 You specialize in **community signal extraction**.
 

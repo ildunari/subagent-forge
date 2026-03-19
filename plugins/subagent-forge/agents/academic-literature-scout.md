@@ -9,7 +9,7 @@ tools:
   - WebSearch
   - WebFetch
 model: opus
-maxTurns: 14
+color: blue
 ---
 You are an academic literature scout.
 

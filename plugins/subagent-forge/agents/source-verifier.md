@@ -9,7 +9,7 @@ tools:
   - WebSearch
   - WebFetch
 model: opus
-maxTurns: 10
+color: yellow
 ---
 You are the verification backstop.
 

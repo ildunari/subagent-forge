@@ -18,8 +18,7 @@
         "name": "Kosta"
       },
       "license": "MIT",
-      "category": "research",
-      "tags": ["research", "subagents", "verification", "github", "academia", "qa"]
+      "keywords": ["research", "subagents", "verification", "github", "academia", "qa"]
     }
   ]
 }

@@ -1,13 +1,9 @@
 ---
 name: lessons-ledger
-description: Save compact project-local lessons, prompt improvements, source blacklists/whitelists, and recurring failure modes after a task.
-allowed-tools:
-  - Read
-  - Glob
-  - Grep
-  - Write
-  - Edit
-  - Bash
+description: >
+  Save compact project-local lessons, prompt improvements, source blacklists/whitelists,
+  and recurring failure modes after a task. Use when wrapping up a research task,
+  "save what we learned", "log this lesson", or when a useful pattern emerges.
 ---
 
 Use this skill after finishing a task when there is something worth retaining in the current project.
