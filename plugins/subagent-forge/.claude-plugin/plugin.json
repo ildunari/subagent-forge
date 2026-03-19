@@ -1,9 +1,33 @@
 {
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
   "name": "subagent-forge",
   "version": "1.0.0",
-  "description": "Research-first orchestration plugin combining product scouting, forum sentiment, GitHub audits, literature discovery, repo mapping, freshness checks, QA critique, and source verification.",
-  "author": {"name": "Kosta"},
+  "description": "Research-first plugin for orchestrating subagents: product scouting, forum sentiment, GitHub audits, academic discovery, repo mapping, freshness checks, QA critique, and source verification.",
+  "author": {
+    "name": "Kosta"
+  },
   "license": "MIT",
-  "keywords": ["research", "subagents", "verification", "github", "marketplace", "academia", "qa", "evidence-first"],
-  "outputStyles": "./styles/"
+  "agents": [
+    "agents/product-tool-scout.md",
+    "agents/forum-sentiment-hunter.md",
+    "agents/github-repo-auditor.md",
+    "agents/academic-literature-scout.md",
+    "agents/directory-repo-mapper.md",
+    "agents/freshness-checker.md",
+    "agents/qa-critique-analyst.md",
+    "agents/source-verifier.md"
+  ],
+  "skills": [
+    "skills/task-packet-builder",
+    "skills/research-report-contract",
+    "skills/source-triage",
+    "skills/rank-and-prune",
+    "skills/lessons-ledger",
+    "skills/research-brief",
+    "skills/spreadsheet-polish"
+  ],
+  "styles": [
+    "styles/research-operator.md"
+  ],
+  "hooks": "hooks/hooks.json"
 }

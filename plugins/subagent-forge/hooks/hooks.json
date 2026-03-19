@@ -1,0 +1,16 @@
+{
+  "hooks": [
+    {
+      "event": "PreToolUse",
+      "matcher": {
+        "tool_name": "Bash"
+      },
+      "hooks": [
+        {
+          "type": "command",
+          "command": "python3 scripts/guard_destructive_bash.py"
+        }
+      ]
+    }
+  ]
+}
