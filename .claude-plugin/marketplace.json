@@ -1,0 +1,25 @@
+{
+  "name": "subagent-forge",
+  "owner": {
+    "name": "Kosta"
+  },
+  "metadata": {
+    "description": "Hybrid marketplace combining the best of signal-labs and signal-research-rig. Research-first orchestration, high-signal subagents, anti-bullshit evaluation, evidence-backed discovery, and QA critique.",
+    "version": "1.0.0",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "subagent-forge",
+      "source": "subagent-forge",
+      "description": "Research-first plugin for product scouting, forum sentiment analysis, GitHub audits, academic literature discovery, repo mapping, freshness checks, QA critique, and source verification.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Kosta"
+      },
+      "license": "MIT",
+      "category": "research",
+      "tags": ["research","subagents","verification","github","academia","qa","marketplace","evidence-first","anti-bullshit"]
+    }
+  ]
+}

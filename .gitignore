@@ -1,0 +1,23 @@
+# Node
+node_modules/
+package-lock.json
+yarn.lock
+
+# Python
+__pycache__/
+*.py[cod]
+.Python
+venv/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Local
+.env
+.env.local
+*.log
