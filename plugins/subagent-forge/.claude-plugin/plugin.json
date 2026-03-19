@@ -1,0 +1,9 @@
+{
+  "name": "subagent-forge",
+  "version": "1.0.0",
+  "description": "Research-first orchestration plugin combining product scouting, forum sentiment, GitHub audits, literature discovery, repo mapping, freshness checks, QA critique, and source verification.",
+  "author": {"name": "Kosta"},
+  "license": "MIT",
+  "keywords": ["research", "subagents", "verification", "github", "marketplace", "academia", "qa", "evidence-first"],
+  "outputStyles": "./styles/"
+}
